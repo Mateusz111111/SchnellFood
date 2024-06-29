@@ -26,6 +26,7 @@ export class HomePage implements OnInit {
   
       this.restaurants = [
         {
+          uid: '111',
           cover: 'assets/imgs/kebab.webp',
           name: 'BafraKebab',
           nameLowercase: 'bafrakebab',
@@ -39,6 +40,7 @@ export class HomePage implements OnInit {
           price: 29
         },
         {
+          uid: '100',
           cover: 'assets/imgs/pizza.jpg',
           name: 'Pizzeria',
           nameLowercase: 'pizzeria',
@@ -52,6 +54,7 @@ export class HomePage implements OnInit {
           price: 29
         },
         {
+          uid: '101',
           cover: 'assets/imgs/schabowy.jpg',
           name: 'Polska Restauracja',
           nameLowercase: 'polska restauracja',

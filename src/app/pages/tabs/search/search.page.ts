@@ -15,6 +15,7 @@ export class SearchPage implements OnInit {
   query: any;
   allRestaurants: any[] = [
     {
+      uid: '111',
       cover: 'assets/imgs/kebab.webp',
       name: 'BafraKebab',
       nameLowercase: 'bafrakebab',
@@ -28,6 +29,7 @@ export class SearchPage implements OnInit {
       price: 29
     },
     {
+      uid: '100',
       cover: 'assets/imgs/pizza.jpg',
       name: 'Pizzeria',
       nameLowercase: 'pizzeria',
@@ -41,6 +43,7 @@ export class SearchPage implements OnInit {
       price: 29
     },
     {
+      uid: '101',
       cover: 'assets/imgs/schabowy.jpg',
       name: 'Polska Restauracja',
       nameLowercase: 'polska restauracja',
@@ -53,7 +56,7 @@ export class SearchPage implements OnInit {
       distance: 2.5,
       price: 29
     }
-  ];
+  ]
 
   restaurants: any[] = [];
 
